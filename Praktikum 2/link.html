@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Praktikum 2 HTML Link</title>
+        <style>
+            body{
+                font-size: 16px;
+                line-height: 28px;
+                background-color:rgb(228, 227, 227);
+            }
+            .container{
+                width: 800px;
+                margin: auto;
+                background-color: whitesmoke;
+                padding: 20px;
+            }
+            .header{
+                padding: 20px;
+                background-color: teal;
+                text-align: center;
+            }
+            .jenislink{
+                background-color: white;
+                margin-top: 10px;
+                padding: 5px;
+
+            }
+            .atributlink{
+                background-color: white;
+                margin-top: 10px;
+                padding: 5px;
+
+            }
+            .linkanchor{
+                background-color: white;
+                margin-top: 10px;
+                padding: 5px;
+
+            }
+            .linkanchor h3{
+                text-align: center;
+            }
+            .linkgambar{
+                background-color: white;
+                margin-top: 10px;
+                padding: 5px;
+
+            }
+            .linkdownload{
+                background-color: white;
+                margin-top: 10px;
+                padding: 5px;
+
+            }
+            .linkemail{
+                background-color: white;
+                margin-top: 10px;
+                padding: 5px;
+
+            }
+            .linkbutton{
+                background-color: white;
+                margin-top: 10px;
+                padding: 5px;
+
+            }
+
+          </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="header">
+                <h1 class="judul">CONTOH PENERAPAN HTML LINK</h1>
+            </div>
+            
+            <div class="jenislink">
+                <h2>Contoh Internal Link</h2>
+                <p>Ini adalah contoh penerapan internal link. Untuk lebih lengkapnya, silahkan buka:
+                    <a href="about.html">About internal Link</a>
+                </p>
+                <h2>Contoh Eksternal Link</h2>
+                <p>Eksternal Link adalah link yang menuju ke domain halaman web domain diluar halaman local. 
+                    Eksternal link biasanya digunakan untuk membuka web atau domain lain. Misalnya membuka halaman google:
+                    <a href="https://www.google.com/">Ini google</a>
+                </p>
+            </div>
+
+            <div class="atributlink">
+                <h2>Atribut Link</h2>
+                <div>
+                    <h3>Target</h3>
+                    <p>Ini adalah contoh penggunaan atribut target frame. Klik link berikut :
+                        <a href="https://www.petanikode.com/" target="frame1">Sebuah link</a>
+                    </p>
+                    <p>
+                        <!-- Frame yang akan menjadi target dari link--> 
+                        <iframe name="frame1" width="780px" height="400"></iframe>
+                    </p>
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <p>Ini adalah contoh penggunaan atribut title. 
+                        Coba letakan cursor pada  
+                        <a href="https://www.google.com/" title="Menuju ke halaman google">link ini</a>
+                        . Maka akan ada informasi tambahan link akan menuju kemana.
+                    </p>
+                </div>
+                <div id="atributstyle">
+                    <h3>Style</h3>
+                    <p>Ini adalah contoh penggunaan atribut style. Atribut ini berfungsi 
+                        untuk mengubah tampilan atau memberi style pada link.
+                    </p>
+                    <ul>
+                        <li><a href="#atributstyle" style="color:red">Link 1</a></li>
+                        <li><a href="#atributstyle" style="color:blue">Link 2</a></li>
+                        <li><a href="#atributstyle" style="color:lightseagreen">Link 3</a></li>
+                        <li><a href="#atributstyle" style="color:white;background-color: orange;">Link 4</a></li>
+                        <li><a href="#atributstyle" style="text-decoration: none;">Link 5</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="linkanchor">
+                <h2>Contoh Link Anchor</h2>
+                <p id="awal">Ini adalah contoh link anchor. Klik <a href="#akhir">bagian akhir</a> 
+                    ,maka akan menuju ke bagian akhir dari paragarf
+                </p>
+                <h3>Apa Itu Website?</h3>
+                <p>
+                    Website adalah sebuah kumpulan halaman pada suatu domain di internet  
+                    yang dibuat dengan tujuan tertentu dan saling berhubungan serta dapat 
+                    diakses secara luas melalui halaman depan (home page) menggunakan sebuah 
+                    browser menggunakan URL website.
+                    
+                </p>
+                <p>
+                    Website pertama kali dibuat oleh Tim Berners-Lee pada akhir 1980an dan baru resmi online pada tahun 1991.
+                    Tujuan awal Tim Berners-Lee membuat sebuah website adalah supaya lebih memudahkan para peneliti di tempatnya 
+                    bekerja ketika akan bertukar atau melakukan perubahan informasi.Pada saat itu, website mulai dapat digunakan 
+                    secara gratis oleh publik baru diumumkan oleh CERN tepatnya tanggal 30 April 1993. Website dapat dimiliki 
+                    oleh individu, organisasi, atau perusahaan. Pada umumnya sebuah website akan menampilkan informasi atau 
+                    satu topik tertentu, meskipun saat ini banyak website yang menampilkan berbagai informasi dengan topik yang berbeda.
+                </p>
+                <p>
+                    Terdapat 3 unsur yang sangat vital pada website. Tanpa adanya semua unsur ini, website anda tidak akan 
+                    pernah ditemukan dan diakses oleh pengguna di internet. Ketiga unsur yang dimaksud adalah:
+                    <ul>
+                        <li><p> Domain. Jika website diibaratkan sebagai produk, maka domain adalah merk. 
+                            Penggunaan domain yang menarik akan membuat orang tertarik untuk memasuki suatu website. 
+                            Dengan pemilihan nama domain yang unik juga membuat orang mudah mengingatnya untuk nantinya dikunjungi kembali.</p>
+                        </li>
+                        <li><p> Hosting. Tidak kalah pentingnya dengan domain, hosting memiliki peran untuk menyimpan semua database 
+                            (script, gambar, video, teks dan lain sebagainya) yang diperlukan untuk membentuk suatu website. Banyak 
+                            sekali penyedia jasa hosting di Indonesia, salah satunya Niagahoster yang menyediakan hosting terbaik untuk 
+                            kecepatan akses website Anda.</p>
+                        </li>
+                        <li><p> Konten. Tanpa adanya konten pada website, maka website bisa dikatakan tidak memiliki tujuan yang jelas. 
+                            Konten pada website dapat berupa teks, gambar atau video. Jika dilihat dari konten yang disuguhkan, 
+                            terdapat beberapa macam website. Misalnya saja, sosial media, website berita, website jual beli atau website 
+                            yang berisi konten yang berdasarkan minat, bakat serta hobi..</p>
+                        </li>
+                    </ul>
+                </p>
+
+                <p id="akhir">Ini adalah bagian akhir dari paragraf. <a href="#awal">Kembali ke bagian awal</a></p>
+            </div>
+
+            <div class="linkgambar">
+                <h2>Contoh Link Dengan Gambar</h2>
+                <p>Ini adalah contoh ling dengan gambar. Semua area gambar akan menjadi link dan jika kita klik, 
+                    maka akan dibawa ke halaman yang akan dituju oleh link tersebut.</p>
+                <a href="https://www.google.com/" title="Google">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" height="42" width="42"/></a>
+
+            </div>
+
+            <div class="linkdownload">
+                <h2>Contoh Link Untuk Download</h2>
+                <p>Silahkan Download File:
+                    <a href="MateriPBW.zip">MateriPBW.zip</a>
+                </p>
+            </div>
+
+            <div class="linkemail">
+                <h2>Contoh Link Untuk Mengirim Email</h2>
+                <p>
+                    Info lebih lanjut:
+                   <a href="mailto:yulicahyani1101@gmail.com" 
+                   title="kirim email ke yulicahyani">Contact Me</a>
+                </p>
+            </div>
+
+            <div class="linkbutton">
+                <h2>Contoh Link Dengan Button</h2>
+                <p>klik tombol dibawah ini untuk menuju ke Praktikum 2 HTML link</p>
+                <button onclick="document.location='link.html'">Praktikum 2 HTML Link</button>
+            </div>
+
+        </div>
+
+
+    </body>
+</html>
