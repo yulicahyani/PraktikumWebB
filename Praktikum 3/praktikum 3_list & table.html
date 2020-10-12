@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Praktikum 3 HTML List & Table</title>
+        <style>
+            body{
+                background-color:whitesmoke; 
+            }
+            h1{
+                margin-top: 30px;
+                color: rgb(113, 124, 134);
+                text-align: center;
+            }
+            table{
+                border-collapse: collapse;
+                margin: 30px auto;
+                background-color: rgb(219, 229, 241);
+                font-size: 14px;
+            }
+            table th {
+                background: rgb(68, 124, 187);
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            table td, th {
+                padding: 6px 10px 6px 6px;
+                border: 1px solid rgb(192, 192, 192);
+            }
+            table tr:nth-of-type(odd) {
+                background:  rgb(237, 242, 248);
+            }
+            .nomorauto{
+                counter-reset: serial-number;
+            }
+            .nomorauto td:first-child:before{
+                counter-increment: serial-number;
+                content: counter(serial-number);
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1> Data Mata Kuliah Mahasiswa Kelas B</h1>
+
+        <table class="nomorauto">
+            <tr>
+                <th>NO</th>
+                <th>NAMA</th>
+                <th>NIM</th>
+                <th>KELAS</th>
+                <th>NO HP</th>
+                <th>MATKUL YANG DIAMBIL</th>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>Ida Bagus Made Swarbawa</td>
+                <td align="center">1708561052</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ul type="circle">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>I Putu Ryan Paramaditya</td>
+                <td align="center">1808561024</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ul type="disc">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>I Kadek Agus Chandra Pradika</td>
+                <td align="center">1808561025</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ul type="square">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>I Kadek Ari Surya</td>
+                <td align="center">1808561026</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ol type="1">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>Ni Made Yuli Cahyani</td>
+                <td align="center">1808561027</td>
+                <td align="center">B</td>
+                <td align="center">085647065215</td>
+                <td>
+                    <ol type="1">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>I Gede Aditya Mahardika Pratama</td>
+                <td align="center">1808561028</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ol type="a">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>Theresia Seftiani Girsang</td>
+                <td align="center">1808561029</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ol type="a">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>I Gusti Ngurah Bagus Pramana Putra</td>
+                <td align="center">1808561030</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ol type="i">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ol>
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td align="center"></td>
+                <td>I Made Prema Satwika</td>
+                <td align="center">1808561031</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ol type="i">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>I Kadek Gowinda</td>
+                <td align="center">1808561033</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ol type="1">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>I Putu Sedana Wijaya</td>
+                <td align="center">1808561034</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ol type="1">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>Ni Made Rai Nirmala Santhi</td>
+                <td align="center">1808561035</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ol type="1">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>Ni Made Ayu Suandewi</td>
+                <td align="center">1808561036</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ol type="A">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ol>
+                </td>
+            </tr>
+            
+            <tr>
+                <td align="center"></td>
+                <td>Lalu Muhamad WaisulKuroni</td>
+                <td align="center">1808561037</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ol type="A">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>Nusan Bagus Wibisana</td>
+                <td align="center">1808561039</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ol type="I">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>I Gede Acintia Udayana</td>
+                <td align="center">1808561040</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ol type="I">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>Made Dwiki Budi Laksana</td>
+                <td align="center">1808561041</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ol type="1">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ol>
+                </td>
+            </tr>
+            
+            <tr>
+                <td align="center"></td>
+                <td>Edo Krishnanda Aditya</td>
+                <td align="center">1808561042</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ol type="1">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>Al Habib Muhammad</td>
+                <td align="center">1808561043</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ul type="square">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>I Made Yoga Mahendra</td>
+                <td align="center">1808561044</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ul type="disc">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center"></td>
+                <td>I Gusti Gede Ngurah Adryan Pratama Putra Bueka</td>
+                <td align="center">1808561045</td>
+                <td align="center">B</td>
+                <td align="center">085123456789</td>
+                <td>
+                    <ul type="circle">
+                        <li>Teori Bahasa dan Otomata</li>
+                        <li>Sistem Informasi</li>
+                        <li>Pemodelan dan Simulasi</li>
+                        <li>Grafika Komputer</li>
+                        <li>Kewirausahaan</li>
+                        <li>Metode Penelitian</li>
+                        <li>Praktikum Pemrograman Berbasis Web</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        
+    </body>
+</html>
