@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Praktikum 4 HTML Form & Meta Element</title>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="refresh" content="3" />
+        <meta name="keywords" content="belajar form & meta element html, form html,meta element html, praktikum 4 pbw" />
+        <meta name="description" content="Ini merupakan tugas praktikum 4 pemrograman berbasis web" />
+        
+        <style>
+            body{
+                background-color: darkslategray;
+            }
+            form{
+                width: 515px;
+                height: 500px;
+                background-color: white;
+                margin: 30px auto;
+            }
+            legend{
+                text-align: center;
+                font-size: 30px;
+                padding: 5px;
+            }
+            fieldset{
+                width: fit-content;
+                margin: auto;
+            }
+            table{
+                border-collapse: collapse;
+                margin: 30px auto;
+            }
+            table td{
+                padding: 5px 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="">
+            <fieldset>
+                <legend><b> BIODATA DIRI</b></legend>
+                <table>
+                    <tr>
+                        <td><label></label>Nama</label></td>
+                        <td>: <input type="text" name="name" placeholder="Masukan nama" size="30"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Tempat Lahir</label></td>
+                        <td>: <input type="text" name="tempat" placeholder="Masukan tempat lahir" size="30"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Tempat Lahir</label></td>
+                        <td>: <input type="text" name="tempat" placeholder="Masukan tanggal lahir" size="30"></td>
+                    </tr>
+    
+                    <tr>
+                        <td><label>Tanggal Lahir</label></td>
+                        <td>: <input type="date" name="tanggal"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Jenis Kelamin</label></td>
+                        <td>: 
+                            <label><input type="radio" name="gender" value="laki-laki">Laki-laki</label>
+                            <label><input type="radio" name="gender" value="perempuan">Perempuan</label>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td><label>Pendidikan Terakhir</label></td>
+                        <td>: 
+                            <select name="pendidikan terkahir">
+                                <option>Pilih pendidikan terakhir</option>
+                                <option value="SD">SD</option>
+                                <option value="SMP">SMP</option>
+                                <option value="SMA/SMK">SMA/SMK</option>
+                                <option value="D3">D3</option>
+                                <option value="S1">S1</option>
+                                <option value="S2">S2</option>
+                                <option value="lain-lain">Lain-lain</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Pendidikan Saat Ini</label></td>
+                        <td>: 
+                            <select name="pendidikan saat ini">
+                                <option>Pilih pendidikan saat ini</option>
+                                <option value="SD">SD</option>
+                                <option value="SMP">SMP</option>
+                                <option value="SMA/SMK">SMA/SMK</option>
+                                <option value="D3">D3</option>
+                                <option value="S1">S1</option>
+                                <option value="S2">S2</option>
+                                <option value="lain-lain">Lain-lain</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>No Telp/HP</label></td>
+                        <td>: <input type="number" name="telp"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Alamat</label></td>
+                        <td>: <textarea name="alamat" cols="30" rows="5"></textarea></td>
+    
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td style="padding-left: 29px;"><input type="submit" name="submit"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>
