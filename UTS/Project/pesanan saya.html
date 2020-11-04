@@ -1,0 +1,1104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="refresh" content="3600">
+    <meta name="keywords" content="Art and Handcraf">
+    <meta name="description" content="Platform penjualan barang seni dan kerajinan tangan">
+    <meta name="author" content="Tim Acraf">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/fe118aecdc.js" crossorigin="anonymous"></script>
+    <!-- Js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+    <title>Pesanan Saya</title>
+  </head>
+  <body style="background-color: whitesmoke;" data-spy="scroll" data-target="#navbarResponsive">
+    <!-- home section -->
+    <div id="home">
+      <!-- navbar -->
+      <nav  class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><img src="img/logos.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <!-- start left nav -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"> Home </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Category
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Paint</a>
+                    <a class="dropdown-item" href="#">Furniture</a>
+                    <a class="dropdown-item" href="#">Souvenir</a>
+                    <a class="dropdown-item" href="#">Statue</a>
+                    <a class="dropdown-item" href="#">Handicraf</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="keranjang.html"><i class="fas fa-cart-plus"></i> Cart </a>
+                </li>
+                <!-- Login -->
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#login"><i class="fas fa-user-circle"></i> Login </a>
+                </li> -->
+
+                <!-- after login -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user-circle"></i> Profil</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="pesanan saya.html">My Order</a>
+                    <a class="dropdown-item" href="Seller/profil.html">My Acount</a>
+                    <a class="dropdown-item" href="Seller/informasi-toko.html">My Store</a>
+                    <a class="dropdown-item" href="login.html">Log Out</a>
+                  </div>
+                </li>  
+                <!-- end after login -->                
+            </ul>
+            <!-- end left nav -->
+
+            <!-- start right nav -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="far fa-bell"></i></a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#"> <img style="width: 2rem;" src="img/img2.jpg" alt=""> Pesanan anda sedang diproses</a>
+                    <a class="dropdown-item" href="#"><img style="width: 2rem;" src="img/img2.jpg" alt=""> Pesanan anda sudah dikirim</a>
+                    <a class="dropdown-item" href="#"><img style="width: 2rem;" src="img/img2.jpg" alt=""> Pesanan anda sudah dibatalkan</a>
+                    <a class="dropdown-item" href="#"><img style="width: 2rem;" src="img/img2.jpg" alt=""> Pesanan anda sudah dikirim</a>
+                    <a class="dropdown-item" href="notifikasi.html"> 
+                      <button type="button" class="btn btn-color">Lihat semua</button>
+                    </a>
+                  </div>
+              </li>
+              <li>
+              <form class="form-inline">
+                <div id="top-search">
+                  <input class="form-control mr-sm-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-warning my-2 my-sm-0 rounded-pill" type="submit">Search</button>
+                </div>
+              </form>
+            </li>
+            </ul>
+            <!-- end right nav -->
+        </div>
+      </nav>
+      <!--end navbar -->
+    </div>
+
+    <!--Start Pesanan Saya-->
+    <section class="mt-5">
+      <div class="container">
+        <div class="row">
+          <h3 class="mt-4">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-receipt-cutoff" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M1.92.506a.5.5 0 0 1 .434.14L3 1.293l.646-.647a.5.5 0 0 1 .708 0L5 1.293l.646-.647a.5.5 0 0 1 .708 0L7 1.293l.646-.647a.5.5 0 0 1 .708 0L9 1.293l.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .801.13l.5 1A.5.5 0 0 1 15 2v13h-1V2.118l-.137-.274-.51.51a.5.5 0 0 1-.707 0L12 1.707l-.646.647a.5.5 0 0 1-.708 0L10 1.707l-.646.647a.5.5 0 0 1-.708 0L8 1.707l-.646.647a.5.5 0 0 1-.708 0L6 1.707l-.646.647a.5.5 0 0 1-.708 0L4 1.707l-.646.647a.5.5 0 0 1-.708 0l-.509-.51L2 2.118V15H1V2a.5.5 0 0 1 .053-.224l.5-1a.5.5 0 0 1 .367-.27zM0 15.5a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+              <path fill-rule="evenodd" d="M3 4.5a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm8-8a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+            PESANAN SAYA
+          </h3>
+        </div>
+
+        <!--Menu untuk pesanan saya-->
+        <div class="row">
+          <div class="mt-3">
+            <!-- Nav tabs -->
+            <ul class="nav nav-pills nav-justified shadow-sm p-3 bg-white rounded" id="myTab" role="tablist">
+              <li style="width: 300px;" class="nav-item mr-5" role="presentation">
+                <a class="nav-link text-dark active" id="belumBayar-tab" data-toggle="tab" href="#belumBayar" role="tab" aria-controls="belumBayar" aria-selected="true"><b>Belum Bayar</b> </a>
+              </li>
+              <li class="nav-item mr-5" role="presentation">
+                <a class="nav-link text-dark" id="dikemas-tab" data-toggle="tab" href="#dikemas" role="tab" aria-controls="dikemas" aria-selected="false"><b>Dikemas</b></a>
+              </li>
+              <li class="nav-item mr-5" role="presentation">
+                <a class="nav-link text-dark" id="dikirim-tab" data-toggle="tab" href="#dikirim" role="tab" aria-controls="dikirim" aria-selected="false"><b>Dikirim</b></a>
+              </li>
+              <li class="nav-item mr-5" role="presentation">
+                <a class="nav-link text-dark" id="selesai-tab" data-toggle="tab" href="#selesai" role="tab" aria-controls="selesai" aria-selected="false"><b>Selesai</b></a>
+              </li>
+              <li class="nav-item mr-5" role="presentation">
+                <a class="nav-link text-dark" id="dibatalkan-tab" data-toggle="tab" href="#dibatalkan" role="tab" aria-controls="dibatalkan" aria-selected="false"><b>Dibatalkan</b></a>
+              </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content mt-3 shadow-sm p-3 mb-5 bg-white rounded">
+
+              <!--Start Pesanan belum bayar-->
+              <div class="tab-pane fade show active" id="belumBayar" role="tabpanel" aria-labelledby="belumBayar-tab">
+                <table class="table shadow p-3 mb-3 bg-white rounded">
+                  <tbody>
+                    <div>
+                        <tr>
+                            <th>
+                                Toko 1
+                            </th>
+                            <th colspan="2"></th>
+                            <th class="text-right">Belum Bayar</th>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>
+                                <img  style="width: 5rem;" src="img/img1.jpg" alt="">
+                            </td>
+                            <td colspan="2">
+                              <p>flower embroidery</p>
+                              <p>X 1</p>
+                            </td>                      
+                            <td class="text-right">Rp. 48000</td>
+                        </tr>
+                    </div>
+                    
+                    <!--Hapus dimulai-->
+                    <div>
+                      <tr>
+                          <td>
+                              <img  style="width: 5rem;" src="img/img1.jpg" alt="">
+                          </td>
+                          <td colspan="2">
+                            <p>flower embroidery</p>
+                            <p>X 1</p>
+                          </td>
+                          <td class="text-right">Rp. 48000</td>
+                      </tr>
+                    </div>
+                    <!--Hapus sampai sini-->
+                  </tbody>
+
+                  <!--hapus dari sini-->
+                  <tbody>
+                    <div>
+                        <tr>
+                            <th>
+                                Toko 2
+                            </th>
+                            <th colspan="2"></th>
+                            <th class="text-right">Belum Bayar</th>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>
+                                <img  style="width: 5rem;" src="img/img1.jpg" alt="">
+                            </td>
+                            <td colspan="2">
+                              <p>flower embroidery</p>
+                              <p>X 1</p>
+                            </td>                      
+                            <td class="text-right">Rp. 48000</td>
+                        </tr>
+                    </div>
+                  </tbody>
+                  <!--hapus sampe sini-->
+                </table>
+                
+                <div>
+                  <table class="table table-borderless">
+                    <div>
+                      <tr>
+                          <td></td>
+                          <td colspan="2"></td>
+                          <td class="text-right"><h4> Total Pembayaran  : Rp. 184000</h4></td>
+                      </tr>
+                    </div>
+                  </table>
+                  
+                  <div class="text-right">
+                    <button class="px-2 py-2 btn btn-success" type="button" data-toggle="modal" data-target="#exampleModal">Bayar Sekarang</button>
+                    <button class="px-2 py-2 btn btn-danger">Batalkan Pesanan</button>
+                    <button class="px-2 py-2 btn btn-info" data-toggle="modal" data-target="#rincian-belumbayar">Rincian Pesanan</button>
+                  </div>
+
+                  <!-- Modal Bayar Sekarang -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Pembayaran Pesanan</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Metode Pembayaran : Transfer Bank</p>
+                          <h3 style="color: #780116;">No. Rekening : xxxxxxxxxxxxx</h3><br>
+                          <p>Metode Pembayaran : COD</p>
+                          <h3 style="color: #780116;">Pembayaran dilakukan di tempat. Tidak perlu melakukan konfirmasi pembayaran.</h3>
+                          
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-success">Konfirmasi Pembayaran</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <script>
+                    $('#myModal').on('shown.bs.modal', function () {
+                      $('#myInput').trigger('focus')
+                    })
+                  </script>
+                
+              </div>
+                
+              </div>
+              <!--End Pesanan belum bayar-->
+
+              <!--Start Pesanan dikemas-->
+              <div class="tab-pane fade" id="dikemas" role="tabpanel" aria-labelledby="dikemas-tab">
+                <table class="table shadow p-3 mb-3 bg-white rounded">
+                  <tbody>
+                    <div>
+                        <tr>
+                            <th>
+                                Toko 1
+                            </th>
+                            <th colspan="2"></th>
+                            <th class="text-right">Dikemas</th>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>
+                                <img  style="width: 5rem;" src="img/img1.jpg" alt="">
+                            </td>
+                            <td colspan="2">
+                              <p>flower embroidery</p>
+                              <p>X 1</p>
+                            </td>                      
+                            <td class="text-right">Rp. 48000</td>
+                        </tr>
+                    </div>
+                    
+                    <!--Hapus dimulai-->
+                    <div>
+                      <tr>
+                          <td>
+                              <img  style="width: 5rem;" src="img/img1.jpg" alt="">
+                          </td>
+                          <td colspan="2">
+                            <p>flower embroidery</p>
+                            <p>X 1</p>
+                          </td>
+                          <td class="text-right">Rp. 48000</td>
+                      </tr>
+                    </div>
+                    <!--Hapus sampai sini-->
+                  </tbody>
+                </table>
+
+                <div class="mb-4">
+                  <table class="table table-borderless">
+                    <div>
+                      <tr>
+                          <td></td>
+                          <td colspan="2"></td>
+                          <td class="text-right"><h4> Total Pesanan  : Rp. 116000</h4></td>
+                      </tr>
+                    </div>
+                  </table>
+
+                  <div class="text-right">
+                    <button class="px-2 py-2 btn btn-info" data-toggle="modal" data-target="#rincian">Rincian Pesanan</button>
+                  </div>
+                </div>
+
+                <!--hapus dari sini-->
+                <table class="table shadow p-3 mb-3 bg-white rounded">
+                  <tbody>
+                    <div>
+                        <tr>
+                            <th>
+                                Toko 2
+                            </th>
+                            <th colspan="2"></th>
+                            <th class="text-right">Dikemas</th>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>
+                                <img  style="width: 5rem;" src="img/img1.jpg" alt="">
+                            </td>
+                            <td colspan="2">
+                              <p>flower embroidery</p>
+                              <p>X 1</p>
+                            </td>                      
+                            <td class="text-right">Rp. 48000</td>
+                        </tr>
+                    </div>
+                  </tbody>
+                </table>
+
+                <div class="mb-4">
+                  <table class="table table-borderless">
+                    <div>
+                      <tr>
+                          <td></td>
+                          <td colspan="2"></td>
+                          <td class="text-right"><h4> Total Pesanan  : Rp. 68000</h4></td>
+                      </tr>
+                    </div>
+                  </table>
+
+                  <div class="text-right">
+                    <button class="px-2 py-2 btn btn-info" data-toggle="modal" data-target="#rincian">Rincian Pesanan</button>
+                  </div>
+                </div>
+                <!--hapus sampe sini-->
+
+              </div>
+              <!--End Pesanan dikemas-->
+              
+              <!--Start Pesanan dikirim-->
+              <div class="tab-pane fade" id="dikirim" role="tabpanel" aria-labelledby="dikirim-tab">
+                <table class="table shadow p-3 mb-3 bg-white rounded">
+                  <tbody>
+                    <div>
+                        <tr>
+                            <th>
+                                Toko 1
+                            </th>
+                            <th colspan="2"></th>
+                            <th class="text-right">Dikirim</th>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>
+                                <img  style="width: 5rem;" src="img/img1.jpg" alt="">
+                            </td>
+                            <td colspan="2">
+                              <p>flower embroidery</p>
+                              <p>X 1</p>
+                            </td>                      
+                            <td class="text-right">Rp. 48000</td>
+                        </tr>
+                    </div>
+                    
+                    <!--Hapus dimulai-->
+                    <div>
+                      <tr>
+                          <td>
+                              <img  style="width: 5rem;" src="img/img1.jpg" alt="">
+                          </td>
+                          <td colspan="2">
+                            <p>flower embroidery</p>
+                            <p>X 1</p>
+                          </td>
+                          <td class="text-right">Rp. 48000</td>
+                      </tr>
+                    </div>
+                    <!--Hapus sampai sini-->
+                  </tbody>
+                </table>
+
+                <div class="mb-4">
+                  <table class="table table-borderless">
+                    <div>
+                      <tr>
+                          <td></td>
+                          <td colspan="2"></td>
+                          <td class="text-right"><h4> Total Pesanan  : Rp. 116000</h4></td>
+                      </tr>
+                    </div>
+                  </table>
+                  
+                  <div class="text-right">
+                    <button class="px-2 py-2 btn btn-success">Pesanan Diterima</button>
+                    <button class="px-2 py-2 btn btn-info" data-toggle="modal" data-target="#rincian">Rincian Pesanan</button>
+                  </div>
+                </div>
+
+                <!--hapus dari sini-->
+                <table class="table shadow p-3 mb-3 bg-white rounded">
+                  <tbody>
+                    <div>
+                        <tr>
+                            <th>
+                                Toko 2
+                            </th>
+                            <th colspan="2"></th>
+                            <th class="text-right">Dikirim</th>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>
+                                <img  style="width: 5rem;" src="img/img1.jpg" alt="">
+                            </td>
+                            <td colspan="2">
+                              <p>flower embroidery</p>
+                              <p>X 1</p>
+                            </td>                      
+                            <td class="text-right">Rp. 48000</td>
+                        </tr>
+                    </div>
+                  </tbody>
+                </table>
+
+                <div class="mb-4">
+                  <table class="table table-borderless">
+                    <div>
+                      <tr>
+                          <td></td>
+                          <td colspan="2"></td>
+                          <td class="text-right"><h4> Total Pesanan  : Rp. 68000</h4></td>
+                      </tr>
+                    </div>
+                  </table>
+                  
+                  <div class="text-right">
+                    <button class="px-2 py-2 btn btn-success">Pesanan Diterima</button>
+                    <button class="px-2 py-2 btn btn-info" data-toggle="modal" data-target="#rincian">Rincian Pesanan</button>
+                  </div>
+                </div>
+                <!--hapus sampe sini-->
+               
+              </div>
+              <!--End Pesanan dikirim-->
+
+              <!--Start Pesanan sudah selesai-->
+              <div class="tab-pane fade" id="selesai" role="tabpanel" aria-labelledby="selesai-tab">
+                <table class="table shadow p-3 mb-3 bg-white rounded">
+                  <tbody>
+                    <div>
+                        <tr>
+                            <th>
+                                Toko 1
+                            </th>
+                            <th colspan="2"></th>
+                            <th class="text-right">Selesai</th>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>
+                                <img  style="width: 5rem;" src="img/img1.jpg" alt="">
+                            </td>
+                            <td colspan="2">
+                              <p>flower embroidery</p>
+                              <p>X 1</p>
+                            </td>                      
+                            <td class="text-right">Rp. 48000</td>
+                        </tr>
+                    </div>
+                    
+                    <!--Hapus dimulai-->
+                    <div>
+                      <tr>
+                          <td>
+                              <img  style="width: 5rem;" src="img/img1.jpg" alt="">
+                          </td>
+                          <td colspan="2">
+                            <p>flower embroidery</p>
+                            <p>X 1</p>
+                          </td>
+                          <td class="text-right">Rp. 48000</td>
+                      </tr>
+                    </div>
+                    <!--Hapus sampai sini-->
+                  </tbody>
+                </table>
+
+                <div class="mb-4">
+                  <table class="table table-borderless">
+                    <div>
+                      <tr>
+                          <td></td>
+                          <td colspan="2"></td>
+                          <td class="text-right"><h4> Total Pesanan  : Rp. 116000</h4></td>
+                      </tr>
+                    </div>
+                  </table>
+
+                  <div class="text-right">
+                    <button class="px-2 py-2 btn btn-info" data-toggle="modal" data-target="#rincian">Rincian Pesanan</button>
+                  </div>
+                </div>
+                <!--hapus dari sini-->
+                <table class="table shadow p-3 mb-3 bg-white rounded">
+                  <tbody>
+                    <div>
+                        <tr>
+                            <th>
+                                Toko 2
+                            </th>
+                            <th colspan="2"></th>
+                            <th class="text-right">Selesai</th>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>
+                                <img  style="width: 5rem;" src="img/img1.jpg" alt="">
+                            </td>
+                            <td colspan="2">
+                              <p>flower embroidery</p>
+                              <p>X 1</p>
+                            </td>                      
+                            <td class="text-right">Rp. 48000</td>
+                        </tr>
+                    </div>
+                  </tbody>
+                </table>
+
+                <div class="mb-4">
+                  <table class="table table-borderless">
+                    <div>
+                      <tr>
+                          <td></td>
+                          <td colspan="2"></td>
+                          <td class="text-right"><h4> Total Pesanan  : Rp. 68000</h4></td>
+                      </tr>
+                    </div>
+                  </table>
+
+                  <div class="text-right">
+                    <button class="px-2 py-2 btn btn-info" data-toggle="modal" data-target="#rincian">Rincian Pesanan</button>
+                  </div>
+                </div>
+                <!--hapus sampe sini-->
+               
+              </div>
+              <!--End Pesanan sudah selesai-->
+
+              <!--Start Pesanan dibatalkan-->
+              <div class="tab-pane fade" id="dibatalkan" role="tabpanel" aria-labelledby="dibatalkan-tab">
+                <table class="table shadow p-3 mb-3 bg-white rounded">
+                  <tbody>
+                    <div>
+                        <tr>
+                            <th>
+                                Toko 1
+                            </th>
+                            <th colspan="2"></th>
+                            <th class="text-right">Dibatalkan Anda</th>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>
+                                <img  style="width: 5rem;" src="img/img1.jpg" alt="">
+                            </td>
+                            <td colspan="2">
+                              <p>flower embroidery</p>
+                              <p>X 1</p>
+                            </td>                      
+                            <td class="text-right">Rp. 48000</td>
+                        </tr>
+                    </div>
+                    
+                    <!--Hapus dimulai-->
+                    <div>
+                      <tr>
+                          <td>
+                              <img  style="width: 5rem;" src="img/img1.jpg" alt="">
+                          </td>
+                          <td colspan="2">
+                            <p>flower embroidery</p>
+                            <p>X 1</p>
+                          </td>
+                          <td class="text-right">Rp. 48000</td>
+                      </tr>
+                    </div>
+                    <!--Hapus sampai sini-->
+                  </tbody>
+                </table>
+
+                <div class="mb-4">
+                  <table class="table table-borderless">
+                    <div>
+                      <tr>
+                          <td>Rincian pembatalan : -</td>
+                          <td colspan="2"></td>
+                          <td class="text-right"><h4> Total Pesanan : Rp. 116000</h4></td>
+                      </tr>
+                    </div>
+                  </table>
+
+                  <div class="text-right">
+                    <button class="px-2 py-2 btn btn-info" data-toggle="modal" data-target="#rincian">Rincian Pesanan</button>
+                  </div>
+                </div>
+
+                <!--hapus dari sini-->
+                <table class="table shadow p-3 mb-3 bg-white rounded">
+                  <tbody>
+                    <div>
+                        <tr>
+                            <th>
+                                Toko 2
+                            </th>
+                            <th colspan="2"></th>
+                            <th class="text-right">Dibatalkan Penjual</th>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>
+                                <img  style="width: 5rem;" src="img/img1.jpg" alt="">
+                            </td>
+                            <td colspan="2">
+                              <p>flower embroidery</p>
+                              <p>X 1</p>
+                            </td>                      
+                            <td class="text-right">Rp. 48000</td>
+                        </tr>
+                    </div>
+                  </tbody>
+                </table>
+                
+
+                <div class="mb-4">
+                  <table class="table table-borderless">
+                    <div>
+                      <tr>
+                          <td>Rincian Pembatalan : xxxxxxxxxxxxx</td>
+                          <td colspan="2"></td>
+                          <td class="text-right"><h4> Total Pesanan  : Rp. 68000</h4></td>
+                      </tr>
+                    </div>
+                  </table>
+
+                  <div class="text-right">
+                    <button class="px-2 py-2 btn btn-info" data-toggle="modal" data-target="#rincian">Rincian Pesanan</button>
+                  </div>
+                </div>
+                <!--hapus sampe sini-->
+
+              </div>
+              <!--End Pesanan dibatalkan-->
+
+            </div>
+
+            <script>
+              $('#myTab a').on('click', function (e) {
+                e.preventDefault()
+                $(this).tab('show')
+              })
+            </script>
+          </div>
+        </div>
+        
+        <!--Start Rincian Pesanan Belum Bayar-->
+        <!-- Modal -->
+        <div class="modal fade" id="rincian-belumbayar" tabindex="-1" aria-labelledby="rincianPesanan" aria-hidden="true">
+          <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="rincianPesanan">Rincian Pesanan</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <!--Alamat pengiriman-->
+                <div class="py-2">
+                  <div>Yuli Cahyani</div>
+                  <div>(+62) 85647065215</div>
+                  <div>Jln. Raya pantai pererenan, br. Batu, no. 42,desa pererenan, KAB. BADUNG - MENGWI, BALI, ID 80351</div>
+                </div>
+
+                <!--Daftar pesanan-->
+                <div class="mt-3">
+                  <table class="table">
+                      <thead>
+                          <div>
+                              <tr>
+                                  <th style="font-size: 20px; color: #780116;" colspan="2" scope="col" class="text-left">
+                                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-check-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                          <path fill-rule="evenodd" d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM4 14a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm7 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm.354-7.646a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                                      </svg>
+                                      Produk Dipesan
+                                  </th>
+                                  <th scope="col">Harga satuan</th>
+                                  <th scope="col">Jumlah</th>
+                                  <th scope="col">Sub Total</th>
+                              </tr>
+                          </div>
+                      </thead>
+                      <tbody>
+                          <div>
+                              <tr>
+                                  <th>
+                                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-shop" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                          <path fill-rule="evenodd" d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+                                      </svg>
+                                      Toko 1
+                                  </th>
+                              </tr>
+                          </div>
+                          <div>
+                              <tr>
+                                  <td>
+                                      <img  style="width: 3rem;" src="img/img1.jpg" alt="">
+                                  </td>
+                                  <td>flower embroidery</td>
+                                  <td>Rp. 48000</td>
+                                  <td>1</td>
+                                  <td>Rp. 48000</td>
+                              </tr>
+                          </div>
+                          
+                          <!--Hapus dimulai-->
+                          <div>
+                              <tr>
+                                  <td>
+                                      <img  style="width: 3rem;" src="img/img1.jpg" alt="">
+                                  </td>
+                                  <td>flower embroidery</td>
+                                  <td>Rp. 48000</td>
+                                  <td>1</td>
+                                  <td>Rp. 48000</td>
+                              </tr>
+                          </div>
+                          <!--Hapus sampai sini-->
+
+                          <div>
+                              <tr>
+                                  <th>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td colspan="2">
+                                      <h4>No. Pesanan : xxxxxxxxxxx</h4>
+                                      <p>Tgl Pesanan : 30-10-2020</p>
+                                    </td>
+                                  <td>
+                                    <p>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-truck" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                                        </svg>
+                                        Opsi Pengiriman :
+                                      </p>
+                                    <p>JNE</p>
+                                  </td>
+                                  <td>
+                                      <p>
+                                          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-day-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                              <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-4.785-6.145a.425.425 0 0 1-.43-.425c0-.242.192-.43.43-.43a.428.428 0 1 1 0 .855zm.336.563v4.105h-.672V8.418h.672zm-6.867 4.105v-2.3h2.261v-.61H4.684V7.801h2.464v-.61H4v5.332h.684zm3.296 0h.676V9.98c0-.554.227-1.007.953-1.007.125 0 .258.004.329.015v-.613a1.806 1.806 0 0 0-.254-.02c-.582 0-.891.32-1.012.567h-.02v-.504H7.98v4.105z"/>
+                                          </svg>
+                                          Diterima :
+                                      </p>
+                                      <p>
+                                          2-7 hari setelah paket diserahkan
+                                      </p>
+                                  </td>
+                                  <td>
+                                      <p>
+                                          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wallet2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                              <path fill-rule="evenodd" d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"/>
+                                            </svg>
+                                          Ongkos Kirim
+                                      </p>
+                                      <p>Rp. 20000</p>
+                                  </td>
+                              </tr>
+                          </div>
+
+                          <div>
+                              <tr>
+                                  <td colspan="4" class="text-right">Total Pesanan (2 Produk) :</td>
+                                  <td><h3>Rp. 116000</h3></td>
+                              </tr>
+                          </div>
+                      </tbody>
+
+                      <!--Hapus dari sini-->
+                      <tbody>
+                        <div>
+                            <tr>
+                                <th>
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-shop" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+                                    </svg>
+                                    Toko 2
+                                </th>
+                            </tr>
+                        </div>
+                        <div>
+                            <tr>
+                                <td>
+                                    <img  style="width: 3rem;" src="img/img1.jpg" alt="">
+                                </td>
+                                <td>flower embroidery</td>
+                                <td>Rp. 48000</td>
+                                <td>1</td>
+                                <td>Rp. 48000</td>
+                            </tr>
+                        </div>
+                        
+                        <div>
+                            <tr>
+                                <th>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <h4>No. Pesanan : xxxxxxxxxxx</h4>
+                                    <p>Tgl Pesanan : 30-10-2020</p>
+                                  </td>
+                                <td>
+                                  <p>
+                                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-truck" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                          <path fill-rule="evenodd" d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                                      </svg>
+                                      Opsi Pengiriman :
+                                    </p>
+                                  <p>JNE</p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-day-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-4.785-6.145a.425.425 0 0 1-.43-.425c0-.242.192-.43.43-.43a.428.428 0 1 1 0 .855zm.336.563v4.105h-.672V8.418h.672zm-6.867 4.105v-2.3h2.261v-.61H4.684V7.801h2.464v-.61H4v5.332h.684zm3.296 0h.676V9.98c0-.554.227-1.007.953-1.007.125 0 .258.004.329.015v-.613a1.806 1.806 0 0 0-.254-.02c-.582 0-.891.32-1.012.567h-.02v-.504H7.98v4.105z"/>
+                                        </svg>
+                                        Diterima :
+                                    </p>
+                                    <p>
+                                        2-7 hari setelah paket diserahkan
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wallet2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"/>
+                                          </svg>
+                                        Ongkos Kirim
+                                    </p>
+                                    <p>Rp. 20000</p>
+                                </td>
+                            </tr>
+                        </div>
+
+                        <div>
+                            <tr>
+                                <td colspan="4" class="text-right">Total Pesanan (1 Produk) :</td>
+                                <td><h3>Rp. 68000</h3></td>
+                            </tr>
+                        </div>
+                    </tbody>
+                  <!--Hapus sampe sini-->
+                      
+                  </table>
+                </div>
+
+                <div class="mt-5 row">
+                  <div class="mx-auto">
+                      <table class="table table-borderless">
+                          <tr>
+                              <td>Subtotal untuk Produk</td>
+                              <th><h5>Rp. 144000</h5></th>
+                          </tr>
+                          <tr>
+                              <td>Total Ongkos Kirim</td>
+                              <th><h5>Rp. 40000</h5></th>
+                          </tr>
+                          <tr>
+                              <td>Total Pembayaran</td>
+                              <th style="color: #780116;"><h3>Rp.184000</h3></th>
+                          </tr>
+                          <tr>
+                            <td>Metode Pembayaran</td>
+                            <th>Transfer Bank</th>
+                        </tr>
+                      </table>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--END Rincian Pesanan Belum Bayar-->
+
+        <!--Start Rincian Pesanan-->
+        <!-- Modal -->
+        <div class="modal fade" id="rincian" tabindex="-1" aria-labelledby="rincianPesanan" aria-hidden="true">
+          <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="rincianPesanan">Rincian Pesanan</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <!--Alamat pengiriman-->
+                <div class="py-2">
+                  <div>Yuli Cahyani</div>
+                  <div>(+62) 85647065215</div>
+                  <div>Jln. Raya pantai pererenan, br. Batu, no. 42,desa pererenan, KAB. BADUNG - MENGWI, BALI, ID 80351</div>
+                </div>
+
+                <!--Daftar pesanan-->
+                <div class="mt-3">
+                  <table class="table">
+                      <thead>
+                          <div>
+                              <tr>
+                                  <th style="font-size: 20px; color: #780116;" colspan="2" scope="col" class="text-left">
+                                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-check-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                          <path fill-rule="evenodd" d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM4 14a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm7 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm.354-7.646a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                                      </svg>
+                                      Produk Dipesan
+                                  </th>
+                                  <th scope="col">Harga satuan</th>
+                                  <th scope="col">Jumlah</th>
+                                  <th scope="col">Sub Total</th>
+                              </tr>
+                          </div>
+                      </thead>
+                      <tbody>
+                          <div>
+                              <tr>
+                                  <th>
+                                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-shop" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                          <path fill-rule="evenodd" d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+                                      </svg>
+                                      Toko 1
+                                  </th>
+                              </tr>
+                          </div>
+                          <div>
+                              <tr>
+                                  <td>
+                                      <img  style="width: 3rem;" src="img/img1.jpg" alt="">
+                                  </td>
+                                  <td>flower embroidery</td>
+                                  <td>Rp. 48000</td>
+                                  <td>1</td>
+                                  <td>Rp. 48000</td>
+                              </tr>
+                          </div>
+                          
+                          <!--Hapus dimulai-->
+                          <div>
+                              <tr>
+                                  <td>
+                                      <img  style="width: 3rem;" src="img/img1.jpg" alt="">
+                                  </td>
+                                  <td>flower embroidery</td>
+                                  <td>Rp. 48000</td>
+                                  <td>1</td>
+                                  <td>Rp. 48000</td>
+                              </tr>
+                          </div>
+                          <!--Hapus sampai sini-->
+                      </tbody>
+                      <tfoot>
+                          <div>
+                              <tr>
+                                  <th>
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td colspan="2">
+                                      <h4>No. Pesanan : xxxxxxxxxxx</h4>
+                                      <p>Tgl Pesanan : 30-10-2020</p>
+                                    </td>
+                                  <td>
+                                    <p>
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-truck" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                                        </svg>
+                                        Opsi Pengiriman :
+                                      </p>
+                                    <p>JNE</p>
+                                  </td>
+                                  <td>
+                                      <p>
+                                          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-day-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                              <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-4.785-6.145a.425.425 0 0 1-.43-.425c0-.242.192-.43.43-.43a.428.428 0 1 1 0 .855zm.336.563v4.105h-.672V8.418h.672zm-6.867 4.105v-2.3h2.261v-.61H4.684V7.801h2.464v-.61H4v5.332h.684zm3.296 0h.676V9.98c0-.554.227-1.007.953-1.007.125 0 .258.004.329.015v-.613a1.806 1.806 0 0 0-.254-.02c-.582 0-.891.32-1.012.567h-.02v-.504H7.98v4.105z"/>
+                                          </svg>
+                                          Diterima :
+                                      </p>
+                                      <p>
+                                          2-7 hari setelah paket diserahkan
+                                      </p>
+                                  </td>
+                                  <td>
+                                      <p>
+                                          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-wallet2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                              <path fill-rule="evenodd" d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"/>
+                                            </svg>
+                                          Ongkos Kirim
+                                      </p>
+                                      <p>Rp. 20000</p>
+                                  </td>
+                              </tr>
+                          </div>
+
+                          <div>
+                              <tr>
+                                  <td colspan="4" class="text-right">Total Pesanan (2 Produk) :</td>
+                                  <td><h3>Rp. 116000</h3></td>
+                              </tr>
+                          </div>
+                      </tfoot>
+                      
+                  </table>
+                </div>
+
+                <div class="mt-5 row">
+                  <div class="mx-auto">
+                      <table class="table table-borderless">
+                          <tr>
+                              <td>Subtotal untuk Produk</td>
+                              <th><h5>Rp. 96000</h5></th>
+                          </tr>
+                          <tr>
+                              <td>Total Ongkos Kirim</td>
+                              <th><h5>Rp. 20000</h5></th>
+                          </tr>
+                          <tr>
+                              <td>Total Pembayaran</td>
+                              <th style="color: #780116;"><h3>Rp.116000</h3></th>
+                          </tr>
+                          <tr>
+                            <td>Metode Pembayaran</td>
+                            <th>Transfer Bank</th>
+                        </tr>
+                      </table>
+                  </div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+          })
+        </script>
+        <!--END Rincian Pesanan-->    
+
+      </div>
+    </section>
+    <!--End Pesanan Saya-->
+    
+  </body>
+</html>
