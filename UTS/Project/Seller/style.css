@@ -1,0 +1,130 @@
+/* side bar */
+.sidebar {
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 80px;
+    left: 15px;
+    overflow-x: hidden;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.03);
+}
+
+.list-group-item:hover {
+    background-color: #F7B538;
+    color: black;
+}
+
+/* end sidebar */
+
+/* main (content) */
+.main {
+    margin-top: 80px;
+    margin-left: 280px;
+    width: 78%;
+    padding: 20px 20px;
+    background: #ffffff;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.03);
+}
+
+.row .card:hover {
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.05);
+    transform: scale(1.005);
+}
+
+/* end main (content) */
+
+/* sub-navbar */
+#sub-nav .navbar {
+    background: #ffffff !important;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+}
+
+#sub-nav .nav-link {
+    text-transform: uppercase;
+    color: black;
+    padding-top: .8rem;
+}
+
+/* end sub-navbar */
+
+/* general */
+body {
+    overflow-x: hidden;
+}
+
+.color-palette1 {
+    color: #780116;
+}
+
+.color-palette2 {
+    color: #F7B538;
+}
+
+.color-edit {
+    background-color: #F7B538;
+    color: #780116;
+}
+
+.color-edit:hover {
+    background-color: #780116;
+    color: #F7B538;
+}
+
+.color-edit2:hover {
+    background-color: #F7B538;
+    color: #780116;
+}
+
+.color-edit2 {
+    background-color: white;
+    border: 1px solid #F7B538;
+    color: #F7B538;
+}
+
+/* end general */
+
+/* navbar */
+.navbar {
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: #780116 !important;
+}
+
+.navbar-brand a {
+    color: #F7B538;
+}
+
+.navbar-brand img {
+    height: 2rem;
+    color: #F7B538;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    text-transform: uppercase;
+    color: white;
+    padding-top: .8rem;
+}
+
+@media (min-width:992px) {
+
+    .navbar-dark .navbar-nav .nav-link.active,
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: #F7B538;
+        border-bottom: 3px solid #F7B538;
+
+    }
+}
+
+.form-control:focus {
+    border-color: #F7B538;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(238, 151, 20, 0.6);
+}
+
+/* end navbar */
