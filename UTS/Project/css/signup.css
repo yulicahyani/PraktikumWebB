@@ -1,0 +1,29 @@
+.container {
+	width: 45%;
+	margin-top: 9%;
+	margin-bottom: 5%;
+	border: 6px solid #C32E27;
+	padding: 3%;
+	font-family: arial;
+	color: #780115;
+	background-color: #FFFFFF;
+}
+
+.sign-link{
+	color: #780115;
+}
+
+.form-control{
+	border: 2px solid #D8572A;
+}
+
+.btn-warning{
+	background-color: #C32E27; 
+	color: #FFFFFF;
+	text-align: center;
+	margin-left: 200px;
+}
+
+body{
+	background-color: #F6B537;
+}
