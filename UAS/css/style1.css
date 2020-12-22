@@ -1,0 +1,37 @@
+/*Start CSS untuk Keranjang*/
+
+
+.table th{
+    border-top: none;
+}
+.bg-thead{
+    background-color: #780116;
+}
+.btn-color{
+    color: #fff;
+    border-color: #D8572A;
+    background-color: #D8572A;
+}
+
+/*End CSS untuk Keranjang*/
+
+
+/*Start CSS untuk Checkout*/
+.alamat{
+    color: #780116;
+    font-size: 20px;
+    height: 30px;
+}
+/*End CSS untuk Checkout*/
+
+
+/*Start CSS untuk Pesanan*/
+.nav-color{
+    color: #fff;
+    background-color: #C32F27;
+}
+/*End CSS untuk Pesanan*/
+
+/*Start CSS untuk Notifikasi*/
+
+/*End CSS untuk Notifikasi*/
